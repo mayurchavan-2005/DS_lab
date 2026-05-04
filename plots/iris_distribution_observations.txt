@@ -1,0 +1,35 @@
+Iris Feature Distribution Observations
+
+1. The Iris dataset contains 150 rows and 5 columns.
+2. The four measurement columns are numeric: SepalLengthCm, SepalWidthCm,
+   PetalLengthCm, and PetalWidthCm. Species is categorical.
+3. Histograms show the distribution of each numeric feature. PetalLengthCm and
+   PetalWidthCm show clearer separation patterns than sepal measurements.
+4. Boxplots grouped by Species show that virginica has the
+   highest average PetalLengthCm, while setosa has the
+   lowest average PetalLengthCm.
+5. virginica has the highest average PetalWidthCm.
+6. Sepal features overlap more across species, while petal features are more
+   useful for distinguishing Iris species.
+
+Numeric feature summary:
+       SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm
+count     150.000000    150.000000     150.000000    150.000000
+mean        5.843333      3.057333       3.758000      1.199333
+std         0.828066      0.435866       1.765298      0.762238
+min         4.300000      2.000000       1.000000      0.100000
+25%         5.100000      2.800000       1.600000      0.300000
+50%         5.800000      3.000000       4.350000      1.300000
+75%         6.400000      3.300000       5.100000      1.800000
+max         7.900000      4.400000       6.900000      2.500000
+
+Species-wise feature means:
+            SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm
+Species                                                             
+setosa              5.006         3.428          1.462         0.246
+versicolor          5.936         2.770          4.260         1.326
+virginica           6.588         2.974          5.552         2.026
+
+Saved plots:
+- C:\DS_lab\plots\iris_feature_histograms.png
+- C:\DS_lab\plots\iris_feature_boxplots_by_species.png

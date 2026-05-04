@@ -1,0 +1,20 @@
+Titanic Age Box Plot Observations
+
+1. After removing records with null ages, the dataset contains
+   714 rows.
+2. Female passengers who survived have a median age of
+   28.00, while female passengers who did not survive
+   have a median age of 24.50.
+3. Male passengers who survived have a median age of 28.00,
+   while male passengers who did not survive have a median age of
+   29.00.
+4. The box plots show that age distributions vary by both gender and survival
+   status. The interquartile range shows the middle 50% of ages in each group.
+5. Outliers are identified using the 1.5 * IQR rule. The total number of age
+   outliers across all gender-survival groups is 8.
+6. Wider boxes indicate more variation in ages, while points beyond the whiskers
+   represent possible age outliers.
+
+Saved files:
+- C:\DS_lab\plots\age_boxplot_by_gender_survival.png
+- C:\DS_lab\plots\age_boxplot_statistics.csv

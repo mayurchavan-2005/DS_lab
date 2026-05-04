@@ -1,0 +1,5 @@
+sex,survival_status,Min,Q1,Median,Q3,Max,Count,Outlier Count,Lower Bound,Upper Bound
+female,Did Not Survive,2.0,16.75,24.5,33.25,57.0,64,0,-8.0,58.0
+female,Survived,0.75,19.0,28.0,38.0,63.0,197,0,-9.5,66.5
+male,Did Not Survive,1.0,21.75,29.0,39.25,74.0,360,7,-4.5,65.5
+male,Survived,0.42,18.0,28.0,36.0,80.0,93,1,-9.0,63.0
