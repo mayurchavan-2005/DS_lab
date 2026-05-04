@@ -1,0 +1,18 @@
+Titanic EDA Observations
+
+1. The dataset contains 891 rows and 15 columns.
+2. Survival by gender shows that 'female' passengers had the higher
+   survival rate.
+3. Passenger class analysis shows that class 1 had the highest
+   survival rate.
+4. The fare distribution is right-skewed. Most passengers paid lower fares,
+   while a smaller number paid very high fares.
+5. The mean fare is 32.20, while the median fare is 14.45.
+   Since the mean is greater than the median, high fare values influence the
+   average.
+6. The survival count plot by gender shows that survival was not evenly
+   distributed across male and female passengers.
+
+Saved plots:
+- C:\DS_lab\plots\fare_distribution.png
+- C:\DS_lab\plots\survival_count_by_gender.png
